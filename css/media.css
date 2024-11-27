@@ -1,0 +1,75 @@
+@media (max-width: 1200px) {
+  .footer .contaner .about-mealify {
+    width: calc(50% - 10px);
+    order: 1;
+  }
+  .footer .contaner .subscription {
+    width: 100%;
+    order: 3;
+  }
+  .footer .contaner .contact-details {
+    width: calc(50% -10px);
+    order: 2;
+  }
+}
+@media (max-width: 992px) {
+  .header .header-contant {
+    text-align: center;
+    width: 100%;
+  }
+  .header .header-img {
+    width: 70%;
+  }
+  .header .header-contant .header-btn {
+    margin-left: 30%;
+  }
+  .chef-items .chef-item {
+    width: calc(50% - 20px);
+  }
+  .section3 .contaner .contact-form .your-data {
+    row-gap: 15px;
+  }
+  .section3 .contaner .contact-form .your-data > input {
+    width: 100%;
+  }
+  .footer .contaner .about-mealify {
+    width: 90%;
+    order: 1;
+  }
+  .footer .contaner .subscription {
+    width: 90%;
+    order: 2;
+  }
+  .footer .contaner .contact-details {
+    width: 90%;
+    order: 3;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .contaner .links {
+    display: none;
+  }
+  .section3 .contaner .contact-details .contact-item {
+    width: 100%;
+  }
+  .section2 .contaner .gallery {
+    columns: 2;
+  }
+  .chef-items .chef-item {
+    width: calc(100% - 20px);
+  }
+  .navbar .contaner .dark-mode i.fa-bars {
+    display: block;
+  }
+  .header .header-contant .header-btn {
+    margin-left: 20%;
+  }
+}
+@media (max-width: 576px) {
+  .header .header-contant .header-btn {
+    margin-left: 10%;
+  }
+  .section2 .contaner .gallery {
+    columns: 1;
+  }
+}
